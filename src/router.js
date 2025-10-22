@@ -9,7 +9,11 @@ import Login from './components/Login.vue'
 
 // 路由配置
 const router = createRouter({
+<<<<<<< HEAD
   history: createWebHashHistory(),
+=======
+  history: createWebHashHistory(), // 改为 hash 模式
+>>>>>>> be6c2b2fafcc178dfdec2ea7ccf8c76d6c2363e8
   routes: [
     { path: '/', component: Home },
     { path: '/game', component: Game, meta: { requiresAuth: true } },
